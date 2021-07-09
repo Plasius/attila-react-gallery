@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import ImageGallery from 'react-image-gallery'
+
+const images = [
+  {
+    original: 'img/1.jpg',
+    thumbnail: 'img/1.jpg',
+    description: 'Damn! Alright my boy',
+  },
+  {
+    original: 'img/2.jpg',
+    thumbnail: 'img/2.jpg',
+    description: 'Damn! Alright my boy',
+  },
+  {
+    original: 'img/3.jpg',
+    thumbnail: 'img/3.jpg',
+    description: 'Damn! Alright my boy',
+  },
+  {
+    original: 'img/4.jpg',
+    thumbnail: 'img/4.jpg',
+    description: 'Damn! Alright my boy',
+  },
+];
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <ImageGallery items={images} />;
 }
 
 export default App;
