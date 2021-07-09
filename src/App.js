@@ -5,22 +5,22 @@ const images = [
   {
     original: 'img/1.jpg',
     thumbnail: 'img/1.jpg',
-    description: 'Damn! Alright my boy',
+    description: 'desc1',
   },
   {
     original: 'img/2.jpg',
     thumbnail: 'img/2.jpg',
-    description: 'Damn! Alright my boy',
+    description: 'desc12',
   },
   {
     original: 'img/3.jpg',
     thumbnail: 'img/3.jpg',
-    description: 'Damn! Alright my boy',
+    description: 'desc123',
   },
   {
     original: 'img/4.jpg',
     thumbnail: 'img/4.jpg',
-    description: 'Damn! Alright my boy',
+    description: 'desc1234',
   },
 ];
 
