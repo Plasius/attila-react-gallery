@@ -22,6 +22,11 @@ const images = [
     thumbnail: 'img/4.jpg',
     description: 'desc1234',
   },
+  {
+    original: 'img/5.jpg',
+    thumbnail: 'img/5.jpg',
+    description: 'desc12345',
+  },
 ];
 
 function App() {
